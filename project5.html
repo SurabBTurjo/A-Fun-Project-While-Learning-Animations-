@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project5.css">
+<body>
+    
+
+    <img src="1.png"class="main">
+    <img src="2.png"class="circle">
+    <img src="3.png"class="whale">
+
+
+    <h4 class="uphead">
+        BELIEVE  IN  THE  POWER
+    </h4>
+    
+    <div class="low">
+
+    <h1 class="lowhead">
+        Pacific Ocean
+    </h1>
+
+    <div class="lowpar">
+        Many of life’s failures are people who did not <br>
+         realize how close they were to success when <br>
+          they gave up
+    </div>
+
+    <footer>
+        Watch Video 
+        <img src="play-button.png"class="play">
+    </footer>
+
+    </div>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+    <script>
+        
+     gsap.from('.lowhead',{opacity:0,duration:2,y:580}); 
+     gsap.from('.lowpar',{opacity:0,duration:2,y:500});
+     gsap.from('footer',{opacity:0,duration:2,y:420});
+
+     TweenMax.from(".uphead", 1.5, { opacity:0,fontSize: 5, ease: Sine.easeOut, autoRound: false, });
+
+
+
+     
+     
+     
+     
+
+    
+    </script>
+
+</body>

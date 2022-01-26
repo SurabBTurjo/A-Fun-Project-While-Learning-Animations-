@@ -1,0 +1,89 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.main{
+    width: 100%;
+}
+.circle{
+    position: absolute;
+    left: 25%;
+    top: 9%;
+    /* animation: wh 4s ease-in-out infinite; */
+    /* animation: wh 4s ease-in-out infinite; */
+}
+/* @keyframes wh {
+    0%{
+        transform: translate(0%,7%);
+    }
+     50%{
+        transform: translate(0%,-7%);
+    } 
+    100%{
+        transform: translate(0%,7%);
+    }
+
+} */
+
+.whale{
+    position: absolute;
+    left: 30%;
+    width: 50%;
+    top: 29.5%;
+    animation: wh 4s ease-in-out infinite;
+}
+@keyframes wh {
+    0%{
+        transform: translate(0%,7%);
+    }
+     50%{
+        transform: translate(0%,-7%);
+    } 
+    100%{
+        transform: translate(0%,7%);
+    }
+
+}
+.uphead{
+   
+    text-align: center;
+    position: relative;
+    bottom: 850px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    word-spacing: 25px;
+    letter-spacing: 30px;
+    
+}
+.lowhead{
+    font-size: 75px;
+    position: absolute;
+    font-weight: 10000;
+    bottom: 17%;
+    color:white;
+    left: 15%;
+}
+.lowpar{
+    font-size: 29px;
+    position: absolute;
+    font-weight: 10000;
+    bottom: 10%;
+    color:white;
+    left: 15%;
+}
+.play{
+    width: 25%;
+    background-color: white;
+    border-radius: 50px;
+    position:absolute;
+    left: 175px;
+}
+footer{
+    position: absolute;
+    left: 15%;
+    font-size: 29px;
+    bottom: 1%;
+    font-weight: 700;
+    color: white;
+}
